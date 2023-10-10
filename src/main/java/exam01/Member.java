@@ -1,10 +1,9 @@
 package exam01;
 
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter @Setter
+@Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
 public class Member {
     private String userId;
     private String userPw;
